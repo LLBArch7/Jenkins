@@ -5,7 +5,7 @@ pipeline {
       steps {
       sh 'echo "HELLO WORLD"'
       sh '''
-        echo "Thi will list current dir content from latest"
+        echo "This will list current dir content from latest"
         ls -lh
         '''
       }
