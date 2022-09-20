@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage ('Build') {
       steps {
-      sh 'echo "HELLO Lora Lee"'
+      sh 'echo "HELLO Lora Lee."'
       sh '''
         echo "Welcome to B2"
         uname -a
@@ -12,7 +12,7 @@ pipeline {
     }
     stage ('Test') {
       steps {
-      sh 'echo "HELLO Lora"'
+      sh 'echo "HELLO again, Lora Lee."'
       sh '''
         echo "This is just a test"
         pwd
